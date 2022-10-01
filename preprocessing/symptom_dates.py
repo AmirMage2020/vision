@@ -16,7 +16,6 @@ def get_symptom_dates() -> pd.DataFrame:
 
     # drop any rows with NaN values
     df = df.dropna(how="any")
-    print(df)
 
     # map timestamps to datetime objects
     df["symptom_dates"] = map_timestamps_to_dates(df["symptom_dates"].tolist())
