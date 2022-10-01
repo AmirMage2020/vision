@@ -1,5 +1,7 @@
 import os
+from datetime import timedelta
 
+import numpy as np
 import pandas as pd
 
 from preprocessing.symptom_dates import get_symptom_dates
@@ -58,7 +60,35 @@ class User:
             raise NotImplementedError
 
         # load label data (symptom + diagonsis dates for each COVID user)
-        self.label_data = get_symptom_dates()
+        dates = get_symptom_dates()
+        self.symptom_date = dates.loc[self.id]["symptom_dates"]
+        self.diagnosis_date = dates.loc[self.id]["covid_diagnosis_dates"]
+
+        # create series of labels
+        self.labels = pd.DataFrame(index=self.hr.index, columns=["target"])
+        self.labels.rename(columns={"heartrate": "target"}, inplace=True)
+
+        # assign 1's up to 5 days before first symptom occurence
+        self.labels["target"] = np.where(
+            self.labels.index < self.symptom_date - timedelta(days=5),
+            0,
+            1,
+        )
+
+    def to_dict(self) -> dict:
+        user_dict = {
+            "hr": self.hr,
+            "symptom_date": self.symptom_date,
+            "diagnosis_date": self.diagnosis_date,
+            "target": self.labels,
+            "sampling": self.sampling_rule,
+            "aggregate": self.aggregate,
+        }
+
+        if hasattr(self, "steps"):
+            user_dict["steps"] = self.steps
+
+        return user_dict
 
 
 def load_user_hr(user_id: str) -> pd.DataFrame:
