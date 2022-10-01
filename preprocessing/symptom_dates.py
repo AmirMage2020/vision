@@ -24,6 +24,51 @@ def get_symptom_dates() -> pd.DataFrame:
     )
     df["recovery_dates"] = map_timestamps_to_dates(df["recovery_dates"].tolist())
 
+    # rename to be consistent with User class
+    df.rename(columns={"participantid": "user"}, inplace=True)
+
+    # set user_id as index
+    df.set_index("user", inplace=True)
+
+    # remove recovery dates and category (is always COVID)
+    df = df.drop(["recovery_dates", "category"], axis=1)
+
+    # remove multiple symptom and diagnosis dates
+    df = filter_symptom_dates(df)
+
+    return df
+
+
+def filter_symptom_dates(df: pd.DataFrame) -> pd.DataFrame:
+    """Reduce entires with multiple symptom and diagnosis dates to a single one.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Input dataframe
+
+    Returns
+    -------
+    pd.DataFrame
+        Dataframe with a single diagnosis and symptom dates for each participant
+    """
+
+    # take min diagonsis date
+    df["covid_diagnosis_dates"] = df["covid_diagnosis_dates"].apply(
+        lambda dates: min(dates)
+    )
+
+    # find max symptom date <= min diagnosis date for every row
+    def select_symptom_date(symptom_dates, diagnosis_date):
+        dates = list(filter(lambda date: date <= diagnosis_date, symptom_dates))
+        return max(dates)
+
+    # take max symptom date from list smaller than diagnosis date
+    df["symptom_dates"] = df.apply(
+        lambda x: select_symptom_date(x["symptom_dates"], x["covid_diagnosis_dates"]),
+        axis=1,
+    )
+
     return df
 
 

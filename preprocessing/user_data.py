@@ -2,6 +2,8 @@ import os
 
 import pandas as pd
 
+from preprocessing.symptom_dates import get_symptom_dates
+
 
 class User:
     """Represents a participant in the COVID-19 Wearables dataset.
@@ -55,7 +57,8 @@ class User:
             # sleep data is indexed differently (timesteps + duration)
             raise NotImplementedError
 
-        # TODO: load labels
+        # load label data (symptom + diagonsis dates for each COVID user)
+        self.label_data = get_symptom_dates()
 
 
 def load_user_hr(user_id: str) -> pd.DataFrame:
