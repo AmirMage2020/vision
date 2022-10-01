@@ -1,0 +1,48 @@
+ParticipantID,Category,Symptom_dates,covid_diagnosis_dates,recovery_dates
+AFPB8J2,COVID-19,[Timestamp('2026-07-14 00:00:00')],[Timestamp('2026-07-17 00:00:00')],[Timestamp('2026-08-06 00:00:00')]
+APGIB2T,COVID-19,[Timestamp('2023-05-22 00:00:00')],[Timestamp('2023-05-28 00:00:00')],[Timestamp('2023-06-11 00:00:00')]
+A0KX894,Other Illness,NaN,NaN,NaN
+AQC0L71,COVID-19,[Timestamp('2028-06-17 00:00:00')],[Timestamp('2028-06-19 00:00:00')],"[Timestamp('2028-05-16 00:00:00'), Timestamp('2028-05-15 00:00:00')]"
+A0NVTRV,COVID-19,[Timestamp('2023-12-06 00:00:00')],[Timestamp('2023-12-11 00:00:00')],"[Timestamp('2023-12-14 00:00:00'), Timestamp('2023-12-13 00:00:00')]"
+AOYM4KG,COVID-19,"[Timestamp('2023-08-29 00:00:00'), Timestamp('2022-11-14 00:00:00'), Timestamp('2023-07-04 00:00:00'), Timestamp('2023-10-24 00:00:00')]",[Timestamp('2023-09-18 00:00:00')],"[Timestamp('2023-09-19 00:00:00'), Timestamp('2023-05-29 00:00:00'), Timestamp('2023-09-17 00:00:00'), Timestamp('2023-08-01 00:00:00'), Timestamp('2023-09-18 00:00:00'), Timestamp('2023-11-09 00:00:00')]"
+AR4FPCC,Other Illness,"[Timestamp('2027-04-11 00:00:00'), Timestamp('2027-02-16 00:00:00')]",NaN,"[Timestamp('2027-05-01 00:00:00'), Timestamp('2027-02-20 00:00:00')]"
+A4G0044,COVID-19,[Timestamp('2027-03-04 00:00:00')],[Timestamp('2027-03-08 00:00:00')],"[Timestamp('2027-03-30 00:00:00'), Timestamp('2027-03-18 00:00:00')]"
+AUILKHG,Other Illness,[Timestamp('2027-07-18 00:00:00')],NaN,NaN
+AD77K91,Other Illness,[Timestamp('2023-09-04 00:00:00')],NaN,"[Timestamp('2023-09-14 00:00:00'), Timestamp('2023-09-19 00:00:00')]"
+A3OU183,COVID-19,[Timestamp('2024-11-23 00:00:00')],[Timestamp('2024-11-27 00:00:00')],"[Timestamp('2024-12-09 00:00:00'), Timestamp('2024-12-29 00:00:00')]"
+AX6281V,COVID-19,"[Timestamp('2024-02-08 00:00:00'), Timestamp('2024-01-13 00:00:00'), Timestamp('2024-03-22 00:00:00')]","[Timestamp('2024-04-20 00:00:00'), Timestamp('2024-04-27 00:00:00'), Timestamp('2024-03-31 00:00:00'), Timestamp('2024-04-13 00:00:00')]","[Timestamp('2024-01-21 00:00:00'), Timestamp('2024-02-18 00:00:00'), Timestamp('2024-04-03 00:00:00'), Timestamp('2024-04-04 00:00:00')]"
+A4E0D03,COVID-19,"[Timestamp('2028-03-13 00:00:00'), Timestamp('2028-05-14 00:00:00'), Timestamp('2027-12-25 00:00:00')]",[Timestamp('2028-05-18 00:00:00')],"[Timestamp('2028-06-14 00:00:00'), Timestamp('2028-03-27 00:00:00'), Timestamp('2028-02-03 00:00:00'), Timestamp('2028-06-12 00:00:00')]"
+AS2MVDL,COVID-19,[Timestamp('2025-03-02 00:00:00')],[Timestamp('2025-03-05 00:00:00')],[Timestamp('2025-03-25 00:00:00')]
+AKXN5ZZ,COVID-19,[Timestamp('2028-01-16 00:00:00')],NaN,"[Timestamp('2028-01-20 00:00:00'), Timestamp('2028-01-21 00:00:00')]"
+AF3J1YC,Other Illness (Influenza B),"[Timestamp('2025-09-03 00:00:00'), Timestamp('2025-09-02 00:00:00')]",NaN,"[Timestamp('2025-09-10 00:00:00'), Timestamp('2025-09-08 00:00:00')]"
+AJWW3IY,COVID-19,[Timestamp('2024-08-09 00:00:00')],[Timestamp('2024-08-10 00:00:00')],"[Timestamp('2024-08-15 00:00:00'), Timestamp('2024-08-12 00:00:00')]"
+AAXAA7Z,COVID-19,[Timestamp('2023-03-30 00:00:00')],[Timestamp('2023-04-13 00:00:00')],[Timestamp('2023-05-19 00:00:00')]
+AHYIJDV,COVID-19,[Timestamp('2025-01-16 00:00:00')],[Timestamp('2025-01-22 00:00:00')],"[Timestamp('2025-01-24 00:00:00'), Timestamp('2025-01-23 00:00:00')]"
+AURCTAK,COVID-19,NaN,[Timestamp('2025-03-06 00:00:00')],[Timestamp('2025-03-08 00:00:00')]
+AV2GF3B,COVID-19,[Timestamp('2026-02-12 00:00:00')],[Timestamp('2026-02-18 00:00:00')],[Timestamp('2026-03-22 00:00:00')]
+AJ7TSV9,COVID-19,[Timestamp('2025-01-28 00:00:00')],NaN,NaN
+A1K5DRI,COVID-19,"[Timestamp('2028-01-21 00:00:00'), Timestamp('2028-03-27 00:00:00'), Timestamp('2028-06-20 00:00:00')]",[Timestamp('2028-06-21 00:00:00')],"[Timestamp('2028-01-26 00:00:00'), Timestamp('2028-03-31 00:00:00')]"
+A7EM0B6,COVID-19,"[Timestamp('2023-12-26 00:00:00'), Timestamp('2024-01-08 00:00:00'), Timestamp('2023-12-21 00:00:00')]","[Timestamp('2023-12-26 00:00:00'), Timestamp('2023-12-31 00:00:00'), Timestamp('2023-12-21 00:00:00')]","[Timestamp('2024-01-08 00:00:00'), Timestamp('2024-02-05 00:00:00'), Timestamp('2023-12-25 00:00:00')]"
+ASFODQR,COVID-19,[Timestamp('2024-08-14 00:00:00')],[Timestamp('2024-08-15 00:00:00')],[Timestamp('2024-08-18 00:00:00')]
+ATHKM6V,COVID-19,[Timestamp('2024-03-06 00:00:00')],[Timestamp('2024-03-06 00:00:00')],NaN
+A0VFT1N,COVID-19,[Timestamp('2023-10-13 00:00:00')],[Timestamp('2023-10-16 00:00:00')],[Timestamp('2023-10-26 00:00:00')]
+AZIK4ZA,COVID-19,"[Timestamp('2024-07-29 00:00:00'), Timestamp('2024-10-03 00:00:00'), Timestamp('2024-11-24 00:00:00')]",[Timestamp('2024-12-01 00:00:00')],"[Timestamp('2024-10-15 00:00:00'), Timestamp('2024-08-03 00:00:00'), Timestamp('2024-12-15 00:00:00')]"
+AXI1PBS,Other Illness,"[Timestamp('2026-02-05 00:00:00'), Timestamp('2026-04-30 00:00:00')]",NaN,[Timestamp('2026-05-18 00:00:00')]
+AYWIEKR,COVID-19,[Timestamp('2023-04-07 00:00:00')],[Timestamp('2023-04-09 00:00:00')],[Timestamp('2023-04-18 00:00:00')]
+AUY8KYW,COVID-19,NaN,[Timestamp('2024-03-18 00:00:00')],NaN
+A36HR6Y,COVID-19,"[Timestamp('2023-05-18 00:00:00'), Timestamp('2023-04-06 00:00:00')]",[Timestamp('2023-04-16 00:00:00')],[Timestamp('2023-06-10 00:00:00')]
+AYEFCWQ,COVID-19,"[Timestamp('2025-07-07 00:00:00'), Timestamp('2025-07-08 00:00:00')]",[Timestamp('2025-07-08 00:00:00')],[Timestamp('2025-07-08 00:00:00')]
+AA2KP1S,COVID-19,[Timestamp('2025-01-06 00:00:00')],[Timestamp('2025-01-11 00:00:00')],NaN
+AIFDJZB,COVID-19,[Timestamp('2023-11-07 00:00:00')],[Timestamp('2023-12-20 00:00:00')],NaN
+AJMQUVV,COVID-19,[Timestamp('2024-09-05 00:00:00')],[Timestamp('2024-09-06 00:00:00')],[Timestamp('2024-09-21 00:00:00')]
+AMV7EQF,COVID-19,[Timestamp('2027-06-09 00:00:00')],[Timestamp('2027-06-11 00:00:00')],NaN
+A1ZJ41O,COVID-19,[Timestamp('2027-08-06 00:00:00')],"[Timestamp('2027-08-10 00:00:00'), Timestamp('2027-08-09 00:00:00')]","[Timestamp('2027-08-14 00:00:00'), Timestamp('2027-08-11 00:00:00')]"
+AK7YRBU,Other Illness,[Timestamp('2025-04-12 00:00:00')],NaN,NaN
+A35BJNV,Other Illness,[Timestamp('2026-08-24 00:00:00')],NaN,NaN
+AEOBCFJ,Other Illness,[Timestamp('2029-01-11 00:00:00')],NaN,NaN
+AOGFRXL,Other Illness,[Timestamp('2028-08-19 00:00:00')],NaN,NaN
+ALKAXMZ,Other Illness,[Timestamp('2024-10-01 00:00:00')],NaN,NaN
+AA0HAI1_Illness_1,Other Illness,[Timestamp('2029-08-04 00:00:00')],NaN,NaN
+AA0HAI1_Illness_2,Other Illness,[Timestamp('2029-09-09 00:00:00')],NaN,NaN
+AA0HAI1_Illness_3,Other Illness,[Timestamp('2030-08-04 00:00:00')],NaN,NaN
+AFHOHOM,Other Illness,[Timestamp('2027-01-17 00:00:00')],NaN,NaN
