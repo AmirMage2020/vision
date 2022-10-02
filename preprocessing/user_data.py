@@ -100,7 +100,7 @@ def load_user_hr(user_id: str) -> pd.DataFrame:
     df = pd.read_csv(hr_path)
 
     # reshape df to have datetime as index
-    hr = df.pivot(index="datetime", columns="user", values="heartrate")
+    hr = df.pivot_table(index="datetime", columns="user", values="heartrate")
     hr.index = pd.to_datetime(hr.index)
 
     return hr
